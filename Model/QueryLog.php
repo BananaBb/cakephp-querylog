@@ -4,7 +4,7 @@ class QueryLog {
 
     public function printQuery()
     {
-        convert($this->model->getDataSource()->getLog(false, false));
+        $this->convert($this->model->getDataSource()->getLog(false, false));
     }
 
     public function convert($queryArr = null)
