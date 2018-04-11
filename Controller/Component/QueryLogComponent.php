@@ -1,6 +1,6 @@
 <?php
 
-class QueryLogComponent {
+class QueryLogComponent extends Component {
 
     public function printQuery($model)
     {
