@@ -1,10 +1,14 @@
 <?php
 
-class QueryLog {
+class QueryLogComponent {
 
-    public function printQuery()
+    public function printQuery($model)
     {
-        $this->convert($this->model->getDataSource()->getLog(false, false));
+        if (empty($model)) {
+            print_r('Model not exist');
+            return;
+        }
+        $this->convert($model->getDataSource()->getLog(false, false));
     }
 
     public function convert($queryArr = null)
@@ -15,5 +19,6 @@ class QueryLog {
         
         $transform = json_encode($queryArr);
         print_r(json_decode($transform), true);
+        return;
     }
 }
