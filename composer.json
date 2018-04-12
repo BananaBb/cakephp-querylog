@@ -11,6 +11,9 @@
             "homepage": "https://github.com/BananaBb"
         }
     ],
+    "support": {
+        "source": "https://github.com/BananaBb/cakephp-querylog"
+    },
     "require": {
         "php": ">=5.3.0"
     },
