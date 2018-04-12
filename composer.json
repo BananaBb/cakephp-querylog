@@ -15,7 +15,8 @@
         "source": "https://github.com/BananaBb/cakephp-querylog"
     },
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "composer/installers": "*"
     },
     "extra": {
         "installer-name": "QueryLog"
