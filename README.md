@@ -29,7 +29,8 @@ class ClassName extends ClassExtend
     .
     .
 
-    $this->Logger->main(Model, SearchParamater);
+    $this->Logger->main(Model); // List all query in this model
+    $this->Logger->main(Model, SearchParamater); // List keyword search query in this model
 ```
 
 ## Author
