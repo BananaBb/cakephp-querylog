@@ -9,7 +9,9 @@ git clone git://github.com/BananaBb/cakephp-querylog.git QueryLog
 ```
 ### composer
 This plugin on the Packagist.
-https://packagist.org/packages/bananabb/cakephp-querylog
+```
+composer require bananabb/cakephp-querylog
+```
 
 ## Sample Code
 Add plugin load to your project
