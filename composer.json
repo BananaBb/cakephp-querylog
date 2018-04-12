@@ -1,7 +1,7 @@
 {
     "name": "bananabb/cakephp-querylog",
     "description": "For cakephp print out query log",
-    "type": "library",
+    "type": "cakephp-plugin",
     "keywords": ["cakephp", "query", "lastquery"],
     "homepage": "https://github.com/BananaBb/cakephp-querylog",
     "license": "MIT",
